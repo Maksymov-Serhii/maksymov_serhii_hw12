@@ -1,0 +1,13 @@
+.todo-app {
+  width: 600px;
+  padding: 15px;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+::selection {
+  color: #ffff;
+  background: rgb(142, 73, 232);
+}

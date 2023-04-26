@@ -1,0 +1,53 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  background: #f2f2f2;
+  border-radius: 5px;
+  padding: 5px;
+}
+.list-item-checked {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  background: green;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: line-through;
+}
+.list-item input {
+  margin-right: 10px;
+}
+.list-item-paragraph {
+  overflow: hidden;
+  word-wrap: break-word;
+  margin: 0;
+}
+.delete-button {
+  width: 50px;
+  height: 50px;
+  padding: 5px 7px;
+  border: none;
+  outline: none;
+  background: red;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  margin-left: 5px;
+}
+.delete-button:hover {
+  background: rgb(200, 0, 0);
+}
+input[type="checkbox"] {
+  margin: 0;
+}
+.checkbox-container {
+  width: 50px;
+  text-align: center;
+}

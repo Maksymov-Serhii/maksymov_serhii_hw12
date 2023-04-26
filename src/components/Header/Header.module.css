@@ -1,0 +1,9 @@
+.header h2,
+.header p {
+  margin: 0;
+  padding: 10px;
+}
+.header p {
+  text-align: center;
+  background: #f2f2f2;
+}

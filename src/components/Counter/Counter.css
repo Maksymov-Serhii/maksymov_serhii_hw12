@@ -1,0 +1,23 @@
+.count-component {
+  border: 2px solid brown;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.count-component h3,
+.count-component p {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.count-button {
+  font-size: 32px;
+  min-width: 40px;
+  margin: 0 15px 15px;
+}
